@@ -1,0 +1,158 @@
+.container {
+  position: relative;
+  height: 618px;
+  background-image: url(../../assets/images/Rectangle\ 48.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-family: "Montserrat", sans-serif !important;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-content {
+  padding-top: 72px;
+  text-align: center;
+  color: #fff;
+}
+
+.textcomponent1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.textcomponent2 {
+  color: #fff;
+  text-align: center;
+  font-size: 58px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+}
+
+.textcomponent3 {
+  padding-top: 27px;
+  padding-bottom: 48px;
+  color: #f6f6f6;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn-playstore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  width: 236px;
+  color: #fff;
+  height: 68px;
+  background-color: #fa4a0c;
+  border-radius: 30px;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
+}
+
+.btn-appstore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 236px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  height: 68px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  outline: none;
+}
+
+.img-container {
+  width: 100%;
+  position: relative;
+  height: 600px;
+}
+
+.img-overlay {
+  position: absolute;
+  width: 548px;
+  height: 680px;
+  top: -155px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .container {
+    background-image: none;
+    background-color: #fafafa;
+    height: 778px;
+  }
+
+  .text-content {
+    padding-top: 50px;
+  }
+
+  .textcomponent1 {
+    font-size: 16px;
+    color: #737373;
+  }
+
+  .textcomponent2 {
+    color: #252b42;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 42.5px;
+    letter-spacing: 0.2px;
+  }
+
+  .textcomponent3 {
+    color: #737373;
+    text-align: center;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+  }
+
+  .btn-appstore {
+    color: #fa4a0c;
+    border: 1px solid #fa4a0c;
+  }
+  .img-container {
+    height: 260px;
+  }
+  .img-overlay {
+    width: auto;
+    max-width: 320px;
+    height: auto;
+  }
+}

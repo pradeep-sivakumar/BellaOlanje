@@ -1,0 +1,19 @@
+.logo {
+  height: 101.76px;
+  /* width: 206px; */
+  padding: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .logo {
+    height: 51.37px;
+    width: 104px;
+  }
+}
+
+.nav-flex {
+  width: 580px;
+  display: flex;
+  align-items: center;
+  gap: 94px;
+}

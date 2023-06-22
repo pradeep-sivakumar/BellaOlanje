@@ -1,0 +1,65 @@
+.header1 {
+  color: #000;
+  font-size: 44px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+.text-component1 {
+  margin-top: 8rem;
+  color: #fa4a0c;
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+
+.text-component2 {
+  color: #252b42;
+  font-size: 35px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.text-component3 {
+  padding-top: 27px;
+  color: #737373;
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+@media (max-width: 900px) {
+  .header1 {
+    padding-top: 72px;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+  }
+
+  .text-component1 {
+    margin-top: 0;
+    padding-top: 65px;
+    text-align: center;
+  }
+
+  .text-component2 {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .text-component3 {
+    text-align: center;
+    padding-top: 50px;
+  }
+}

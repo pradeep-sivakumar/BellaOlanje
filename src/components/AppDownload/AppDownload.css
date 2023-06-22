@@ -1,0 +1,84 @@
+.appdownload-container {
+  height: 516px;
+  background-image: url(../../assets/images/Rectangle\ 47.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-family: "Montserrat", sans-serif !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.download-text1 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.download-text2 {
+  padding-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+.download-btn-container {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.download-btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  padding: 18px 31px;
+  color: #fff;
+  background-color: #fa4a0c;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.download-btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  padding: 18px 31px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid #fff;
+}
+
+@media (max-width: 900px) {
+  .appdownload-container {
+    background-image: none;
+    background-color: #252b42;
+  }
+  .download-btn1 {
+    padding: 18px 31px;
+  }
+  .download-btn2 {
+    padding: 16px 45px;
+  }
+}
